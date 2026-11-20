@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="424" viewBox="0 0 900 424" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace">
+<defs>
+  <linearGradient id="tb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00F0FF" stop-opacity=".9"/><stop offset="1" stop-color="#FF2BD6" stop-opacity=".9"/></linearGradient>
+  <filter id="g" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00F0FF" opacity=".03"/></pattern>
+</defs>
+<rect x="1" y="1" width="898" height="422" rx="12" fill="#0A0E17" stroke="url(#tb)" stroke-width="1.5"/>
+<path d="M1 13a12 12 0 0 1 12-12h874a12 12 0 0 1 12 12v27H1z" fill="#111827"/>
+<circle cx="24" cy="21" r="6" fill="#FF5F56"/>
+<circle cx="44" cy="21" r="6" fill="#FFBD2E"/>
+<circle cx="64" cy="21" r="6" fill="#27C93F"/>
+<text x="450.0" y="26" font-size="13" fill="#8B949E" text-anchor="middle">victor@victor-sys: ~/missao</text>
+<rect x="1" y="41" width="898" height="382" fill="url(#sl)"/>
+<clipPath id="r0"><rect x="20" y="58" width="0" height="26"><animate attributeName="width" from="0" to="860" begin="0.40s" dur="0.9s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r0)">
+<text x="30" y="76" font-size="15" fill="#E6EDF3"><tspan fill="#FF2BD6" font-weight="700">$</tspan> ./objetivos.sh --ano 2026</text>
+</g>
+<clipPath id="r1"><rect x="20" y="88" width="0" height="26"><animate attributeName="width" from="0" to="860" begin="1.65s" dur="0.45s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r1)">
+<text x="30" y="106" font-size="15" xml:space="preserve"><tspan fill="#00F0FF" filter="url(#g)" font-weight="700">[ EM CURSO ]</tspan><tspan fill="#C9D1D9">  Conquistar o primeiro estágio em TI</tspan></text>
+</g>
+<clipPath id="r2"><rect x="20" y="118" width="0" height="26"><animate attributeName="width" from="0" to="860" begin="2.22s" dur="0.45s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r2)">
+<text x="30" y="136" font-size="15" xml:space="preserve"><tspan fill="#00F0FF" filter="url(#g)" font-weight="700">[ EM CURSO ]</tspan><tspan fill="#C9D1D9">  Dominar Python e Programação Orientada a Objetos</tspan></text>
+</g>
+<clipPath id="r3"><rect x="20" y="148" width="0" height="26"><animate attributeName="width" from="0" to="860" begin="2.79s" dur="0.45s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r3)">
+<text x="30" y="166" font-size="15" xml:space="preserve"><tspan fill="#00F0FF" filter="url(#g)" font-weight="700">[ EM CURSO ]</tspan><tspan fill="#C9D1D9">  Estruturas de dados e algoritmos</tspan></text>
+</g>
+<clipPath id="r4"><rect x="20" y="178" width="0" height="26"><animate attributeName="width" from="0" to="860" begin="3.36s" dur="0.45s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r4)">
+<text x="30" y="196" font-size="15" xml:space="preserve"><tspan fill="#00F0FF" filter="url(#g)" font-weight="700">[ EM CURSO ]</tspan><tspan fill="#C9D1D9">  Inglês: B1 → B2</tspan></text>
+</g>
+<clipPath id="r5"><rect x="20" y="208" width="0" height="26"><animate attributeName="width" from="0" to="860" begin="3.93s" dur="0.45s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r5)">
+<text x="30" y="226" font-size="15" xml:space="preserve"><tspan fill="#FCEE0A" filter="url(#g)" font-weight="700">[ PRÓXIMO  ]</tspan><tspan fill="#C9D1D9">  SQL avançado e bancos de dados relacionais</tspan></text>
+</g>
+<clipPath id="r6"><rect x="20" y="238" width="0" height="26"><animate attributeName="width" from="0" to="860" begin="4.50s" dur="0.45s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r6)">
+<text x="30" y="256" font-size="15" xml:space="preserve"><tspan fill="#FCEE0A" filter="url(#g)" font-weight="700">[ PRÓXIMO  ]</tspan><tspan fill="#C9D1D9">  Criar APIs com FastAPI e fazer deploy</tspan></text>
+</g>
+<clipPath id="r7"><rect x="20" y="268" width="0" height="26"><animate attributeName="width" from="0" to="860" begin="5.07s" dur="0.45s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r7)">
+<text x="30" y="286" font-size="15" xml:space="preserve"><tspan fill="#39FF14" filter="url(#g)" font-weight="700">[  ATIVO   ]</tspan><tspan fill="#C9D1D9">  Escalar a WeForge com automação e IA</tspan></text>
+</g>
+<clipPath id="r8"><rect x="20" y="312" width="0" height="26"><animate attributeName="width" from="0" to="860" begin="5.64s" dur="0.9s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r8)">
+<text x="30" y="330" font-size="15" fill="#E6EDF3"><tspan fill="#FF2BD6" font-weight="700">$</tspan> echo $STATUS</text>
+</g>
+<clipPath id="r9"><rect x="20" y="342" width="0" height="26"><animate attributeName="width" from="0" to="860" begin="6.89s" dur="0.45s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r9)">
+<text x="30" y="360" font-size="15" fill="#39FF14" filter="url(#g)">› Aprendendo todos os dias. Aberto a oportunidades de estágio.</text>
+</g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="7.46s"/><text x="30" y="390" font-size="15" fill="#FF2BD6" font-weight="700">$</text><rect x="46" y="376" width="10" height="18" fill="#00F0FF"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/></rect></g>
+</svg>

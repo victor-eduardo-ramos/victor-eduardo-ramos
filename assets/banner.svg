@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#04050D"/><stop offset=".55" stop-color="#0A1030"/><stop offset="1" stop-color="#14051F"/>
+  </linearGradient>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00F0FF"/><stop offset=".5" stop-color="#8A2BE2"/><stop offset="1" stop-color="#FF2BD6"/>
+  </linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00F0FF"/><stop offset="1" stop-color="#FF2BD6"/>
+  </linearGradient>
+  <radialGradient id="core"><stop offset="0" stop-color="#00F0FF" stop-opacity=".55"/><stop offset=".6" stop-color="#00F0FF" stop-opacity=".12"/><stop offset="1" stop-color="#00F0FF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="halo"><stop offset="0" stop-color="#8A2BE2" stop-opacity=".35"/><stop offset="1" stop-color="#8A2BE2" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#00F0FF" stroke-opacity=".07"/></pattern>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="softglow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="340" rx="14" fill="url(#bg)"/>
+<rect width="1200" height="340" rx="14" fill="url(#grid)"/>
+<circle cx="1000" cy="168" r="200" fill="url(#halo)"/>
+<rect x="0" y="0" width="1200" height="3" fill="#00F0FF" opacity=".10"><animate attributeName="y" values="-10;340" dur="4.5s" repeatCount="indefinite"/></rect>
+<path d="M16 42V16H42" fill="none" stroke="#00F0FF" stroke-width="2" opacity=".8"/>
+<path d="M1184 42V16H1158" fill="none" stroke="#00F0FF" stroke-width="2" opacity=".8"/>
+<path d="M16 298V324H42" fill="none" stroke="#00F0FF" stroke-width="2" opacity=".8"/>
+<path d="M1184 298V324H1158" fill="none" stroke="#00F0FF" stroke-width="2" opacity=".8"/>
+<text x="60" y="50" font-size="13" fill="#00F0FF" opacity=".75" letter-spacing="2">VICTOR.SYS  //  SEQUÊNCIA DE INICIALIZAÇÃO  v2026</text>
+<text x="800" y="50" font-size="13" fill="#FF2BD6" opacity=".75" letter-spacing="2" text-anchor="end">LINK SEGURO · CURITIBA-BR</text>
+<clipPath id="c0"><rect x="56" y="74" width="0" height="26"><animate attributeName="width" from="0" to="500" begin="0.3s" dur=".55s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#c0)"><text x="60" y="92" font-size="16" fill="#C9D1D9"><tspan fill="#FF2BD6">›</tspan> Inicializando núcleo do sistema</text></g>
+<text x="590" y="92" font-size="16" fill="#00F0FF" filter="url(#glow)" opacity="0">[ OK ]<animate attributeName="opacity" from="0" to="1" begin="0.8500000000000001s" dur=".15s" fill="freeze"/></text>
+<text x="525" y="92" font-size="16" fill="#3A4660" opacity="0">····<animate attributeName="opacity" from="0" to="1" begin="0.75s" dur=".1s" fill="freeze"/></text>
+<clipPath id="c1"><rect x="56" y="100" width="0" height="26"><animate attributeName="width" from="0" to="500" begin="0.9s" dur=".55s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#c1)"><text x="60" y="118" font-size="16" fill="#C9D1D9"><tspan fill="#FF2BD6">›</tspan> Carregando módulos Python · Pygame</text></g>
+<text x="590" y="118" font-size="16" fill="#00F0FF" filter="url(#glow)" opacity="0">[ OK ]<animate attributeName="opacity" from="0" to="1" begin="1.4500000000000002s" dur=".15s" fill="freeze"/></text>
+<text x="525" y="118" font-size="16" fill="#3A4660" opacity="0">····<animate attributeName="opacity" from="0" to="1" begin="1.35s" dur=".1s" fill="freeze"/></text>
+<clipPath id="c2"><rect x="56" y="126" width="0" height="26"><animate attributeName="width" from="0" to="500" begin="1.5s" dur=".55s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#c2)"><text x="60" y="144" font-size="16" fill="#C9D1D9"><tspan fill="#FF2BD6">›</tspan> Conectando agentes de IA</text></g>
+<text x="590" y="144" font-size="16" fill="#00F0FF" filter="url(#glow)" opacity="0">[ OK ]<animate attributeName="opacity" from="0" to="1" begin="2.05s" dur=".15s" fill="freeze"/></text>
+<text x="525" y="144" font-size="16" fill="#3A4660" opacity="0">····<animate attributeName="opacity" from="0" to="1" begin="1.95s" dur=".1s" fill="freeze"/></text>
+<clipPath id="c3"><rect x="56" y="152" width="0" height="26"><animate attributeName="width" from="0" to="500" begin="2.1s" dur=".55s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#c3)"><text x="60" y="170" font-size="16" fill="#C9D1D9"><tspan fill="#FF2BD6">›</tspan> Sincronizando PUCPR · Sistemas de Informação</text></g>
+<text x="590" y="170" font-size="16" fill="#00F0FF" filter="url(#glow)" opacity="0">[ OK ]<animate attributeName="opacity" from="0" to="1" begin="2.6500000000000004s" dur=".15s" fill="freeze"/></text>
+<text x="525" y="170" font-size="16" fill="#3A4660" opacity="0">····<animate attributeName="opacity" from="0" to="1" begin="2.5500000000000003s" dur=".1s" fill="freeze"/></text>
+<rect x="60" y="202" width="586" height="10" rx="5" fill="none" stroke="#00F0FF" stroke-opacity=".45"/>
+<rect x="62" y="204" width="0" height="6" rx="3" fill="url(#bar)" filter="url(#glow)"><animate attributeName="width" from="0" to="582" begin=".3s" dur="2.6s" fill="freeze"/></rect>
+<text x="60" y="234" font-size="12" fill="#8B949E" letter-spacing="2">CARREGANDO<animate attributeName="opacity" values="1;.3;1" dur=".8s" repeatCount="4" begin=".3s"/><set attributeName="opacity" to="0" begin="2.9s"/></text>
+<text x="60" y="234" font-size="12" fill="#39FF14" letter-spacing="2" opacity="0" filter="url(#glow)">● SISTEMA ONLINE<set attributeName="opacity" to="1" begin="2.9s"/><animate attributeName="opacity" values="1;.45;1" dur="2s" begin="3.2s" repeatCount="indefinite"/></text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3s" dur=".5s" fill="freeze"/>
+<text x="58" y="280" font-size="42" font-weight="800" letter-spacing="3" fill="#00F0FF" opacity="0">VICTOR EDUARDO RAMOS<animate attributeName="opacity" values="0;0;.8;0;.6;0;0" keyTimes="0;.88;.9;.92;.94;.96;1" dur="5s" begin="3.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-4 1;3 0;-2 -1;0 0;0 0" keyTimes="0;.88;.9;.92;.94;.96;1" dur="5s" begin="3.5s" repeatCount="indefinite"/></text>
+<text x="62" y="280" font-size="42" font-weight="800" letter-spacing="3" fill="#FF2BD6" opacity="0">VICTOR EDUARDO RAMOS<animate attributeName="opacity" values="0;0;.7;0;.7;0;0" keyTimes="0;.88;.9;.92;.94;.96;1" dur="5s" begin="3.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;4 -1;-3 1;2 0;0 0;0 0" keyTimes="0;.88;.9;.92;.94;.96;1" dur="5s" begin="3.5s" repeatCount="indefinite"/></text>
+<text x="60" y="280" font-size="42" font-weight="800" letter-spacing="3" fill="url(#neon)" filter="url(#softglow)">VICTOR EDUARDO RAMOS</text>
+</g>
+<text x="61" y="310" font-size="14" fill="#9FB3C8" letter-spacing="2" opacity="0">SISTEMAS DE INFORMAÇÃO @ PUCPR  //  FUNDADOR @ WEFORGE<animate attributeName="opacity" from="0" to="1" begin="3.5s" dur=".6s" fill="freeze"/></text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin=".2s" dur="1s" fill="freeze"/>
+<circle cx="1000" cy="168" r="70" fill="url(#core)"><animate attributeName="r" values="62;74;62" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="1000" cy="168" r="138" fill="none" stroke="#00F0FF" stroke-opacity=".18"/>
+<path d="M1122.0 168.0L1134.0 168.0M1127.5 179.2L1133.5 179.7M1126.1 190.2L1132.0 191.3M1123.6 201.1L1129.4 202.7M1120.3 211.8L1125.9 213.8M1116.0 222.1L1121.4 224.6M1105.7 229.0L1116.0 235.0M1104.9 241.4L1109.8 244.9M1098.1 250.3L1102.6 254.1M1090.5 258.5L1094.8 262.8M1082.3 266.1L1086.1 270.6M1073.4 272.9L1076.9 277.8M1061.0 273.7L1067.0 284.0M1054.1 284.0L1056.6 289.4M1043.8 288.3L1045.8 293.9M1033.1 291.6L1034.7 297.4M1022.2 294.1L1023.3 300.0M1011.2 295.5L1011.7 301.5M1000.0 290.0L1000.0 302.0M988.8 295.5L988.3 301.5M977.8 294.1L976.7 300.0M966.9 291.6L965.3 297.4M956.2 288.3L954.2 293.9M945.9 284.0L943.4 289.4M939.0 273.7L933.0 284.0M926.6 272.9L923.1 277.8M917.7 266.1L913.9 270.6M909.5 258.5L905.2 262.8M901.9 250.3L897.4 254.1M895.1 241.4L890.2 244.9M894.3 229.0L884.0 235.0M884.0 222.1L878.6 224.6M879.7 211.8L874.1 213.8M876.4 201.1L870.6 202.7M873.9 190.2L868.0 191.3M872.5 179.2L866.5 179.7M878.0 168.0L866.0 168.0M872.5 156.8L866.5 156.3M873.9 145.8L868.0 144.7M876.4 134.9L870.6 133.3M879.7 124.2L874.1 122.2M884.0 113.9L878.6 111.4M894.3 107.0L884.0 101.0M895.1 94.6L890.2 91.1M901.9 85.7L897.4 81.9M909.5 77.5L905.2 73.2M917.7 69.9L913.9 65.4M926.6 63.1L923.1 58.2M939.0 62.3L933.0 52.0M945.9 52.0L943.4 46.6M956.2 47.7L954.2 42.1M966.9 44.4L965.3 38.6M977.8 41.9L976.7 36.0M988.8 40.5L988.3 34.5M1000.0 46.0L1000.0 34.0M1011.2 40.5L1011.7 34.5M1022.2 41.9L1023.3 36.0M1033.1 44.4L1034.7 38.6M1043.8 47.7L1045.8 42.1M1054.1 52.0L1056.6 46.6M1061.0 62.3L1067.0 52.0M1073.4 63.1L1076.9 58.2M1082.3 69.9L1086.1 65.4M1090.5 77.5L1094.8 73.2M1098.1 85.7L1102.6 81.9M1104.9 94.6L1109.8 91.1M1105.7 107.0L1116.0 101.0M1116.0 113.9L1121.4 111.4M1120.3 124.2L1125.9 122.2M1123.6 134.9L1129.4 133.3M1126.1 145.8L1132.0 144.7M1127.5 156.8L1133.5 156.3" stroke="#00F0FF" stroke-opacity=".55" stroke-width="1.4"><animateTransform attributeName="transform" type="rotate" from="0 1000 168" to="360 1000 168" dur="60s" repeatCount="indefinite"/></path>
+<circle cx="1000" cy="168" r="112" fill="none" stroke="#00F0FF" stroke-width="2" stroke-dasharray="3 9" opacity=".7"><animateTransform attributeName="transform" type="rotate" from="0 1000 168" to="360 1000 168" dur="24s" repeatCount="indefinite"/></circle>
+<circle cx="1000" cy="168" r="98" fill="none" stroke="#FF2BD6" stroke-width="3" stroke-dasharray="70 22 12 22" opacity=".85" filter="url(#glow)"><animateTransform attributeName="transform" type="rotate" from="360 1000 168" to="0 1000 168" dur="14s" repeatCount="indefinite"/></circle>
+<circle cx="1000" cy="168" r="84" fill="none" stroke="#00F0FF" stroke-width="4" stroke-linecap="round" stroke-dasharray="116.1 411.7" filter="url(#glow)"><animateTransform attributeName="transform" type="rotate" from="0 1000 168" to="360 1000 168" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="1000" cy="168" r="84" fill="none" stroke="#8A2BE2" stroke-width="1" opacity=".6"/>
+<circle cx="1000" cy="168" r="56" fill="none" stroke="#00F0FF" stroke-width="1.5" stroke-dasharray="1 5" opacity=".8"><animateTransform attributeName="transform" type="rotate" from="360 1000 168" to="0 1000 168" dur="10s" repeatCount="indefinite"/></circle>
+<polygon points="1000.0,122.0 1039.8,145.0 1039.8,191.0 1000.0,214.0 960.2,191.0 960.2,145.0" fill="#04050D" fill-opacity=".6" stroke="#00F0FF" stroke-width="1.5" filter="url(#glow)"/>
+<text x="1000" y="172" font-size="30" font-weight="800" fill="#FFFFFF" text-anchor="middle" filter="url(#glow)">VR</text>
+<text x="1000" y="192" font-size="9" fill="#00F0FF" text-anchor="middle" letter-spacing="3">AI CORE</text>
+<circle cx="1138" cy="168" r="4" fill="#FF2BD6" filter="url(#glow)"><animateTransform attributeName="transform" type="rotate" from="0 1000 168" to="360 1000 168" dur="8s" repeatCount="indefinite"/></circle>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.2s" dur=".4s" fill="freeze"/><path d="M907 104L858 94" stroke="#00F0FF" stroke-opacity=".5"/><circle cx="907" cy="104" r="2.5" fill="#00F0FF"/><text x="850" y="98" font-size="12" fill="#00F0FF" letter-spacing="2" text-anchor="end">PYTHON</text><text x="850" y="112" font-size="9" fill="#8B949E" letter-spacing="1" text-anchor="end">ONLINE</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.5499999999999998s" dur=".4s" fill="freeze"/><path d="M907 238L858 240" stroke="#00F0FF" stroke-opacity=".5"/><circle cx="907" cy="238" r="2.5" fill="#00F0FF"/><text x="850" y="244" font-size="12" fill="#00F0FF" letter-spacing="2" text-anchor="end">POO</text><text x="850" y="258" font-size="9" fill="#8B949E" letter-spacing="1" text-anchor="end">ONLINE</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.9s" dur=".4s" fill="freeze"/><path d="M1093 104L1142 94" stroke="#00F0FF" stroke-opacity=".5"/><circle cx="1093" cy="104" r="2.5" fill="#00F0FF"/><text x="1150" y="98" font-size="12" fill="#00F0FF" letter-spacing="2" text-anchor="start">IA</text><text x="1150" y="112" font-size="9" fill="#8B949E" letter-spacing="1" text-anchor="start">ONLINE</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.25s" dur=".4s" fill="freeze"/><path d="M1093 238L1142 240" stroke="#00F0FF" stroke-opacity=".5"/><circle cx="1093" cy="238" r="2.5" fill="#00F0FF"/><text x="1150" y="244" font-size="12" fill="#00F0FF" letter-spacing="2" text-anchor="start">DADOS</text><text x="1150" y="258" font-size="9" fill="#8B949E" letter-spacing="1" text-anchor="start">ONLINE</text></g>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace">
+<defs>
+  <linearGradient id="bd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FCEE0A"/><stop offset=".5" stop-color="#FF2BD6"/><stop offset="1" stop-color="#00F0FF"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF6A0"/><stop offset="1" stop-color="#FCB80A"/></linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".12"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="card"><rect x="1" y="1" width="898" height="188" rx="14"/></clipPath>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#FCEE0A" stroke-opacity=".05"/></pattern>
+</defs>
+<rect x="1" y="1" width="898" height="188" rx="14" fill="#0A0E17" stroke="url(#bd)" stroke-width="2"/>
+<rect x="1" y="1" width="898" height="188" rx="14" fill="url(#grid)"/>
+<g clip-path="url(#card)"><rect x="-300" y="0" width="260" height="190" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="-300;1100" dur="4s" repeatCount="indefinite"/></rect></g>
+<circle cx="95" cy="95" r="66" fill="none" stroke="#FCEE0A" stroke-opacity=".35" stroke-dasharray="2 8"><animateTransform attributeName="transform" type="rotate" from="0 95 95" to="360 95 95" dur="20s" repeatCount="indefinite"/></circle>
+<polygon points="95.0,43.0 140.0,69.0 140.0,121.0 95.0,147.0 50.0,121.0 50.0,69.0" fill="#14100A" stroke="url(#gold)" stroke-width="3" filter="url(#g)"/>
+<polygon points="95.0,71.0 100.9,86.9 117.8,87.6 104.5,98.1 109.1,114.4 95.0,105.0 80.9,114.4 85.5,98.1 72.2,87.6 89.1,86.9" fill="url(#gold)" filter="url(#g)"><animate attributeName="opacity" values="1;.75;1" dur="2.4s" repeatCount="indefinite"/></polygon>
+<text x="185" y="46" font-size="12" fill="#FCEE0A" letter-spacing="3">▲ CONQUISTA DESBLOQUEADA<animate attributeName="opacity" values="1;.4;1" dur="1.6s" repeatCount="indefinite"/></text>
+<text x="185" y="86" font-size="30" font-weight="800" fill="#FFFFFF" filter="url(#g)">MENÇÃO HONROSA</text>
+<text x="185" y="114" font-size="14" fill="#00F0FF" letter-spacing="1">PUCPR · Raciocínio Algorítmico · nov/2026</text>
+<text x="185" y="142" font-size="12.5" fill="#9FB3C8">Destaque no projeto final Missile Command: comprometimento,</text>
+<text x="185" y="160" font-size="12.5" fill="#9FB3C8">organização, documentação, colaboração e qualidade do resultado.</text>
+<text x="872" y="46" font-size="10" fill="#FF2BD6" text-anchor="end" letter-spacing="2">CLIQUE PARA VER O CERTIFICADO ›</text>
+</svg>
